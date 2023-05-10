@@ -64,6 +64,7 @@ li:hover {
   line-height: 46px;
   /* border: 2px solid red; */
   padding-inline: 125px;
+  
 }
 
 /* section2 */
@@ -147,7 +148,7 @@ transition-duration: 1s;
 
 .div_article_parent {
   height: 330px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
 }
@@ -183,4 +184,57 @@ cursor: pointer;
 
 .article_card_text:hover {
   transform: scale(1.3);
+}
+
+/* footer */
+footer {
+  margin: 0 auto;
+  padding: 32px 125px;
+  background-color: #2A2626;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social_networks {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.fa-envelope {
+  color: white;
+font-size: 60px;
+cursor: pointer;
+transition-duration: 1s;
+}
+
+.fa-square-facebook{
+ color: white;
+ font-size: 60px;
+ cursor: pointer;
+ transition-duration: 1s;
+}
+
+.fa-instagram {
+  color: white;
+  font-size: 60px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.fa-envelope:hover {
+  color: #fa7e1e ;
+  transform: scale(1.2);
+}
+
+.fa-square-facebook:hover {
+  color: rgb(40, 46, 136);
+  transform: scale(1.2);
+}
+
+.fa-instagram:hover {
+  color:  #d62976;
+  transform: scale(1.2);
 }
