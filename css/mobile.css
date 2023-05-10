@@ -1,0 +1,97 @@
+@media (max-width: 480px) {
+  .cover_section {
+    height: 696px;
+  }
+
+  .header_logo {
+    width: 46px;
+  }
+
+  .burgermenu {
+    display: block;
+    width: 53px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  
+  .cover_heading {
+    margin-top: 400px;
+    padding: 0 30px;
+    font-family: 'Gentium Book Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .section2_title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .cover_heading {
+    padding-inline: 10px;
+  }
+
+ .section2 {
+  padding-top: 50px;
+  height: 1200px;
+ }
+
+ .div_cardparent {
+  flex-wrap: wrap;
+  row-gap: 15px;
+ }
+
+ .card_photos {
+  width: 100%;
+  padding-inline: 20px;
+ }
+
+.article1 {
+  padding-top: 30px;
+  height: 760px;
+}
+
+.article_heading {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.div_article_parent {
+  width: 100%;
+  flex-wrap: wrap;
+  row-gap: 60px;
+}
+
+.article_card {
+  width: 90%;
+  height: 280px;
+  
+}
+
+.article_card1 {
+  width: 90%;
+  height: 280px;
+  
+}
+
+.article_card_text {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+
+footer {
+  padding-inline: auto;
+  height: 90px;
+}
+
+ .footer_logo {
+  display: none;
+ }
+
+}

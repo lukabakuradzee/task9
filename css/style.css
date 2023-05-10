@@ -2,7 +2,7 @@
   max-width: 1440px;
   width: 100%;
   margin-inline: auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 /* section 1 header */
@@ -23,6 +23,10 @@ header {
   align-items: center;
   cursor: pointer;
   /* border: 2px solid green; */
+}
+
+.burgermenu {
+  display: none;
 }
 
 ul {
@@ -132,7 +136,7 @@ li:hover {
 }
 
 .article_heading {
-  color: white;
+color: white;
 font-family: 'Gentium Book Basic';
 font-style: normal;
 font-weight: 400;
@@ -181,13 +185,9 @@ transition-duration: 1s;
   line-height: 21px;
   text-align: justify;
   color: white;
-  transition-duration: 1s;
-  cursor: pointer;
 }
 
-.article_card_text:hover {
-  transform: scale(1.3);
-}
+
 
 /* footer */
 footer {
