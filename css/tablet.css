@@ -1,0 +1,52 @@
+@media (max-width: 1055px) {
+  header {
+    padding-inline: 30px;
+  }
+
+
+  .section2 {
+    padding-inline: 30px;
+  }
+
+  .div_cardparent {
+    gap: 20px;
+  }
+
+  .card1 {
+    width: 100%;
+  }
+
+  
+  .card_photos {
+    width: 100%;
+  }
+
+ 
+
+.article1 {
+  padding-inline: 30px;
+}
+
+.div_article_parent {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+
+.article_photo {
+  width: 100%;
+}
+
+.article_card1 {
+  padding-inline: 30px;
+}
+
+
+.social_networks {
+  width: 25%;
+  gap: 30px;
+}
+
+}
+
+

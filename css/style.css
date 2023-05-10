@@ -9,7 +9,7 @@
 
 .cover_section {
   margin: 0 auto;
-  height: 700px;
+  /* height: 700px; */
   background-image: url("../photos/Rectangle\ 30.png");
   background-size: 100% 100%;
   background-position: cover;
@@ -54,7 +54,9 @@ li:hover {
   transform: scale(1.2);
 }
 .cover_heading {
- margin-top: 327px; 
+ margin-top: 327px;
+ padding-bottom: 96px;
+ padding-inline: 125px;
  text-align: center;
  color: #C0B4B4;
  font-family: 'Gentium Book Basic';
@@ -63,7 +65,8 @@ li:hover {
   font-size: 40px;
   line-height: 46px;
   /* border: 2px solid red; */
-  padding-inline: 125px;
+  
+
   
 }
 
@@ -72,7 +75,7 @@ li:hover {
   margin: 0 auto;
   padding: 96px 125px;
   background-color: #2A2626;
-  height: 610px;
+  /* height: 610px; */
 }
 
 .section2_title {
@@ -124,7 +127,7 @@ li:hover {
 .article1 {
   margin: 0 auto;
   padding: 96px 125px;
-  height: 610px;
+  /* height: 610px; */
   background-color: #0B0A0A;
 }
 
@@ -172,14 +175,14 @@ transition-duration: 1s;
 
 .article_card_text {
   font-family: 'Gentium Book Basic';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-text-align: justify;
-color: white;
-transition-duration: 1s;
-cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: justify;
+  color: white;
+  transition-duration: 1s;
+  cursor: pointer;
 }
 
 .article_card_text:hover {
@@ -238,3 +241,4 @@ transition-duration: 1s;
   color:  #d62976;
   transform: scale(1.2);
 }
+
