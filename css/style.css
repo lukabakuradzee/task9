@@ -21,6 +21,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
   /* border: 2px solid green; */
 }
 
@@ -39,11 +40,19 @@ li a {
   transition: 1s;
 }
 
+
 a:hover {
   color: rgb(40, 46, 136);
   text-decoration: underline;
 }
 
+li {
+  transition: 1s;
+}
+
+li:hover {
+  transform: scale(1.2);
+}
 .cover_heading {
  margin-top: 327px; 
  text-align: center;
@@ -76,6 +85,7 @@ a:hover {
   /* border: 2px solid green; */
   margin-bottom: 42px;
   transition: 1s;
+  cursor: pointer;
   
 }
 
@@ -100,9 +110,77 @@ a:hover {
 .card_photos {
   width: 100%;
   height: 320px;
+  transition-duration: .40s;
+  cursor: pointer;
 
 }
 
 .card_photos:hover {
   box-shadow: 0px 20px 5px 0px rgba(0, 0, 0, 5)
+}
+
+/* article 1 */
+.article1 {
+  margin: 0 auto;
+  padding: 96px 125px;
+  height: 610px;
+  background-color: #0B0A0A;
+}
+
+.article_heading {
+  color: white;
+font-family: 'Gentium Book Basic';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+margin-bottom: 42px;
+cursor: pointer;
+transition-duration: 1s;
+}
+
+.article_heading:hover {
+  color: rgb(40, 46, 136);
+  transform: scale(1.2);
+}
+
+.div_article_parent {
+  height: 330px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article_card {
+  width: 47%;
+  height: 330px;
+}
+
+.article_photo {
+  width: 100%;
+  height: 320px;
+}
+
+.article_card1 {
+  width: 47%;
+  height: 320px;
+  padding: 64px 109px 130px 109px;
+  background-color: #8E8B8B;
+}
+
+.article_card_text {
+  font-family: 'Gentium Book Basic';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: justify;
+color: white;
+transition-duration: 1s;
+cursor: pointer;
+}
+
+.article_card_text:hover {
+  transform: scale(1.3);
 }
