@@ -1,0 +1,45 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+/* section 1 header */
+
+.cover_section {
+  margin: 0 auto;
+  height: 700px;
+  background-image: url("../photos/Rectangle\ 30.png");
+  background-size: 100% 100%;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+/* header */
+header {
+  padding: 32px 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid green; */
+}
+
+ul {
+  display: flex;
+  gap: 53px;
+}
+
+li a {
+  color: white;
+  font-family: 'Gentium Book Basic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  transition: 1s;
+}
+
+a:hover {
+  color: rgb(40, 46, 136);
+  text-decoration: underline;
+}
